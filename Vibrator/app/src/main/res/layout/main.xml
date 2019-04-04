@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--tools:context="cn.bjtu.edu.vibrator.VibratorActivity">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!" />-->
+<!--</RelativeLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:weightSum="1">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Vibrator Test"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    />
+
+<Button
+    android:id="@+id/ButVib"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Vibration"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    />
+
+<Button
+    android:id="@+id/ButVibStop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="STOP"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Vibrate Duration"
+    />
+<EditText
+    android:id="@+id/EdtDuration"
+    android:layout_width="150px"
+    android:layout_height="wrap_content"
+    android:numeric="integer" android:singleLine="true" android:text="100"/>
+
+    <TextView
+        android:text="15281208 梁士正"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.19" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+</LinearLayout>
+
